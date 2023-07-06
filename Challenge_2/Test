@@ -1,0 +1,8 @@
+def test_count_vowels():
+    assert count_vowels("Hello") == 2
+    assert count_vowels("") == 0
+    assert count_vowels("Python") == 1
+    assert count_vowels("AEIOU") == 5
+    assert count_vowels("The quick brown fox jumps over the lazy dog") == 11
+
+test_count_vowels()
