@@ -1,0 +1,14 @@
+# Test Case 1: Empty list
+assert count_unique_elements([]) == 0
+
+# Test Case 2: List with no duplicates
+assert count_unique_elements([1, 2, 3, 4, 5]) == 5
+
+# Test Case 3: List with duplicates
+assert count_unique_elements([1, 2, 3, 2, 4, 4, 5]) == 5
+
+# Test Case 4: List with negative numbers
+assert count_unique_elements([-1, -2, -3, -2, -4, -4, -5]) == 5
+
+# Test Case 5: List with duplicates and mixed data types
+assert count_unique_elements([1, 2, 3, 'a', 'b', 'a', 'c', 3]) ==6
