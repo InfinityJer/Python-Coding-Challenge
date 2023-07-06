@@ -1,0 +1,18 @@
+def test_reverse_string():
+    # Test case 1: Non-empty string
+    assert reverse_string("Hello") == "olleH"
+
+    # Test case 2: Empty string
+    assert reverse_string("") == ""
+
+    # Test case 3: Single character string
+    assert reverse_string("a") == "a"
+
+    # Test case 4: String with spaces
+    assert reverse_string("Hello World") == "dlroW olleH"
+
+    # Test case 5: String with special characters
+    assert reverse_string("@#$%^&*") == "*&^%$#@"
+
+test_reverse_string()
+
